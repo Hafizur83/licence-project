@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title  -->
+    <title>Rsgistration || hafizur83.xyz </title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/icofont/icofont.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-area">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-main p-0">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" height="50" class="d-inline-block align-top" alt="">
+                    <p class="logo-text">ম্যানেজমেন্ট সিস্টেম</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icofont-navigation-menu"></span>
+				</button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="index.html">হোম</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="userlogin.html">নাগরিক লগইন</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="registration.html"> ইউপি ডিজিটাল করুন </a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="faqs.html">প্রশ্ন ও উত্তর</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a class="nav-link" href="login.html">লগইন</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="page-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12">
+                        <div class="panel regis-panel">
+                            <div class="panel-heading py-2">
+                            <div class="wizard position-relative">
+                               <div class="connecting-line"></div>
+                                <ul class="nav nav-tabs justify-content-around" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link " id="step1-tab" data-toggle="tab" href="#step1" role="tab" aria-controls="step1" aria-selected="true"> ইউনিয়নের তথ্য <span class="round-tab"> ১ </span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="step2-tab" data-toggle="tab" href="#step2" role="tab" aria-controls="step2" aria-selected="false"> প্রশাসনিক তথ্য <span class="round-tab"> ২ </span></a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link active" id="step3-tab" data-toggle="tab" href="#step3" role="tab" aria-controls="step3" aria-selected="false"> সেবা সমূহ এবং সেবা খরচ <span class="round-tab"> ৩ </span> </a>
+                                    </li>
+                                     <li class="nav-item">
+                                        <a class="nav-link" id="step4-tab" data-toggle="tab" href="#step4" role="tab" aria-controls="step4" aria-selected="false"> ব্যাংক তথ্য <span class="round-tab"> ৪ </span> </a>
+                                    </li>
+                                </ul>
+                                 </div>
+                                 </div>
+                                 <div class="panel-body mt-3">
+                                     <div class="tab-content">
+                                         <div class="tab-pane fade" id="step1" role="tabpanel" aria-labelledby="step1-tab">
+                                       <h4 class="text-center font-weight-bolder"> ধাপ ১: ইউনিয়নের তথ্য </h4>
+                                        <form action="" class="row">
+                                           <div class="col-md-6">
+                                               <div class="form-group required">
+                                                <label for="district-id" class="control-label"> জেলা </label>
+                                                <select class="form-control" id="district-id" required="required">
+                                                    <option value="">নির্বাচন করুন</option>
+                                                    <option value="1"> কুষ্টিয়া </option>
+                                                    <option value="2"> চট্টগ্রাম </option>
+                                                    <option value="3"> ঢাকা </option>
+                                                    <option value="4"> খুলনা </option>
+                                                </select>
+                                            </div>
+                                           </div>
+                                            <div class="col-md-6">
+                                               <div class="form-group required">
+                                                <label for="district-id" class="control-label"> থানা / উপজেলা </label>
+                                                <select class="form-control" id="district-id" required="required">
+                                                    <option value="">নির্বাচন করুন</option>
+                                                    <option value="1"> কুষ্টিয়া </option>
+                                                    <option value="2"> চট্টগ্রাম </option>
+                                                    <option value="3"> ঢাকা </option>
+                                                    <option value="4"> খুলনা </option>
+                                                </select>
+                                            </div>
+                                           </div>
+                                            <div class="col-md-6">
+                                               <div class="form-group required">
+                                                <label for="district-id" class="control-label"> ইউনিয়ন </label>
+                                                <select class="form-control" id="district-id" required="required">
+                                                    <option value="">নির্বাচন করুন</option>
+                                                    <option value="1"> কুষ্টিয়া </option>
+                                                    <option value="2"> চট্টগ্রাম </option>
+                                                    <option value="3"> ঢাকা </option>
+                                                </select>
+                                            </div>
+                                           </div>
+                                        <div class="col-md-6">
+                                             <div class="form-group input text">
+                                                <label for="mobile" class="control-label"> ইউনিয়নের লোগো </label>
+                                                <input class="form-control" id="mobile" required="required" type="file">
+                                            </div>
+                                        </div>
+                                          <div class="col-md-6">
+                                             <div class="form-group input text">
+                                                <label for="mobile" class="control-label"> লোগোর জলছাপ (সনদে ব্যবহারের জন্য) </label>
+                                                <input class="form-control" id="mobile" required="required" type="file">
+                                            </div>
+                                        </div>
+                                          <div class="col-md-12">
+                                              <div class="text-right form-group">
+                                                <div class="btn-next">
+                                                    <button type="submit" class="btn btn-primary">
+                                                        পরবর্তী </button>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="step2" role="tabpanel" aria-labelledby="step2-tab">
+                                       <h4 class="text-center font-weight-bolder"> ধাপ ১: প্রশাসনিক তথ্য </h4>
+                                        <form action="" class="row">
+                                           <div class="col-md-6">
+                                               <div class="form-group required">
+                                                <label for="district-id" class="control-label"> একাউন্ট ধরণ </label>
+                                                <select class="form-control" id="district-id" required="required">
+                                                    <option value="">নির্বাচন করুন</option>
+                                                    <option value="1"> কুষ্টিয়া </option>
+                                                    <option value="2"> চট্টগ্রাম </option>
+                                                    <option value="3"> ঢাকা </option>
+                                                </select>
+                                            </div>
+                                           </div>
+                                            <div class="col-md-6">
+                                               <div class="form-group input text required">
+                                                <label for="mobile" class="control-label"> নাম (বাংলায়) </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                           </div>
+                                            <div class="col-md-6">
+                                               <div class="form-group input text required">
+                                                <label for="mobile" class="control-label"> মোবাইল নম্বর </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                           </div>
+                                            <div class="col-md-6">
+                                               <div class="form-group input text">
+                                                <label for="mobile" class="control-label"> ই-মেইল </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                           </div>
+                                            <div class="col-md-6">
+                                               <div class="form-group input text required">
+                                                <label for="mobile" class="control-label"> জাতীয় পরিচয়পত্র নম্বর </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                           </div>
+                                        <div class="col-md-6">
+                                             <div class="form-group input text">
+                                                <label for="mobile" class="control-label"> জাতীয় পরিচয়পত্রের ছবি </label>
+                                                <input class="form-control" id="mobile" required="required" type="file">
+                                            </div>
+                                        </div>
+                                          <div class="col-md-6">
+                                             <div class="form-group input text">
+                                                <label for="mobile" class="control-label"> ছবি </label>
+                                                <input class="form-control" id="mobile" required="required" type="file">
+                                            </div>
+                                        </div>
+                                          <div class="col-md-12">
+                                              <div class="text-right form-group">
+                                                <div class="btn-next">
+                                                    <button type="submit" class="btn btn-primary">
+                                                        পরবর্তী </button>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="step3" role="tabpanel" aria-labelledby="step3-tab">
+                                       <h4 class="text-center font-weight-bolder mb-3"> ধাপ ৩: সেবা সমূহ </h4>
+                                       <h4 class="text-center mb-3"> আপনার ইউনিয়নের অন্তর্ভুক্ত সেবাসমূহ টিক চিহ্ন দিয়ে নির্বাচন করুন এবং মূল্য উল্লেখ করুন। </h4>
+                                        <form action="">
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                                <p style="font-weight: bold;font-size: 18px">সেবাসমূহ</p>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <p style="font-weight: bold;font-size: 18px">বাংলা মূল্য</p>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <p style="font-weight: bold;font-size: 18px">ইংরেজি মূল্য</p>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <p style="font-weight: bold;font-size: 18px">সিটিজেন চার্টার</p>
+                                            </div>
+                                        </div>
+                                        <div class="row serviceWrap">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="priceCheck" class="priceCheck" type="checkbox"> চারিত্রিক সনদ
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row serviceWrap">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="priceCheck" class="form-controlu" type="checkbox"> অবিবাহিত সনদ
+                                                </div>
+                                            </div>
+                                           <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="form-controlu" type="checkbox"> জাতীয়তা সনদ
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="form-controlu" type="checkbox"> বিবিধ সনদ
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="form-controlu" type="checkbox"> উত্তরাধিকার সনদ
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="form-controlu" type="checkbox"> পুনঃবিবাহ সনদ
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="form-controlu" type="checkbox"> বার্ষিক আয়ের সনদ
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="form-controlu" type="checkbox"> মৃত্যু সনদ
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="form-controlu" type="checkbox"> মাসিক আয়ের সনদ
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="form-group">
+                                                    <input class="price form-control" value="0" required="required" type="number" readonly>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                              <div class="text-right form-group">
+                                                <div class="btn-next">
+                                                    <button type="submit" class="btn btn-primary">
+                                                        পরবর্তী </button>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="step4" role="tabpanel" aria-labelledby="step4-tab">
+                                       <h4 class="text-center font-weight-bolder"> ধাপ ৪: ব্যাংক তথ্য (ঐচ্ছিক) </h4>
+                                        <form action="" class="row">
+                                            <div class="col-md-4">
+                                               <div class="form-group">
+                                                <label for="mobile" class="control-label"> হিসাব গ্রহীতা </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                           </div>
+                                            <div class="col-md-4">
+                                               <div class="form-group">
+                                                <label for="mobile" class="control-label"> ইমেইল ঠিকানা </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                           </div>
+                                            <div class="col-md-4">
+                                               <div class="form-group">
+                                                <label for="mobile" class="control-label"> মোবাইল নম্বর </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                           </div>
+                                            <div class="col-md-4">
+                                               <div class="form-group required">
+                                                <label for="mobile" class="control-label"> একাউন্টের নাম </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                           </div>
+                                        <div class="col-md-4">
+                                             <div class="form-group">
+                                                <label for="mobile" class="control-label"> ব্যাংক একাউন্ট নম্বরি </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                        </div>
+                                         <div class="col-md-4">
+                                             <div class="form-group">
+                                                <label for="mobile" class="control-label"> ব্রাঞ্চ নাম </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                        </div>
+                                         <div class="col-md-4">
+                                               <div class="form-group required">
+                                                <label for="district-id" class="control-label"> ব্যাংক </label>
+                                                <select class="form-control" id="district-id" required="required">
+                                                    <option value="">নির্বাচন করুন</option>
+                                                    <option value="1"> কুষ্টিয়া </option>
+                                                    <option value="2"> চট্টগ্রাম </option>
+                                                    <option value="3"> ঢাকা </option>
+                                                </select>
+                                            </div>
+                                           </div>
+                                           <div class="col-md-4">
+                                             <div class="form-group">
+                                                <label for="mobile" class="control-label"> রাউটিং নম্বর </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                        </div>
+                                         <div class="col-md-4">
+                                             <div class="form-group">
+                                                <label for="mobile" class="control-label"> রেফারেন্স আইডি </label>
+                                                <input class="form-control" id="mobile" required="required" type="text" value="0190000000" readonly>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                           <div class="form-group">
+                                            <label for="" class="control-label">বিতরণের মাধ্যম</label> <br>
+                                             <div class="form-check form-check-inline">
+                                                <input class="form-check-input" name="banking-system" type="radio">
+                                                <label for="mobile" class="form-check-label"> ব্যাংক </label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" name="banking-system" type="radio">
+                                                <label for="mobile" class="form-check-label">  বিকাশ  </label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" name="banking-system" type="radio">
+                                                <label for="mobile" class="form-check-label"> রকেট </label>
+                                            </div>
+                                            </div>
+                                        </div>
+                                         <div class="col-md-4">
+                                             <div class="form-group">
+                                                <label for="mobile" class="control-label"> ওয়ালেট নম্বর </label>
+                                                <input class="form-control" id="mobile" required="required" type="text">
+                                            </div>
+                                        </div>
+                                          <div class="col-md-12">
+                                              <div class="text-right form-group">
+                                                <div class="btn-next">
+                                                    <button type="submit" class="btn btn-primary">
+                                                        পরবর্তী </button>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </form>
+                                    </div>
+                                    
+                                     </div>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--    Footer Area-->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-6 mt-3">
+                        <h3>সামাজিক যোগাযোগ</h3>
+                        <div class="social-link">
+                            <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                            <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                            <a href="#" class="youtube"><i class="icofont-youtube"></i></a>
+                            <a href="#" class="google-plus"><i class="icofont-google-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 col-md-6 vtext-md-right mt-3 urgent-need">
+                        <h3>জরুরী প্রয়োজনে</h3>
+                        <p>
+                            <a class="telephone" href="tel:01742024386">
+                                <i class="icofont-phone"></i> 01742024386
+                            </a>
+                        </p>
+                        <p>
+                            <a class="telephone" href="tel:01742024386">
+                                <i class="icofont-envelope"></i> lms.support@softbdltd.com
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-6 mt-3 planning-execute">
+                        <h3>কারিগরী সহায়তায়</h3>
+                        <a href="#">
+                            <img src="images/vission21-icon.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/sif.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 mt-3">
+                        <h3>বাস্তবায়নে</h3>
+                        <a href="#">
+                            <img src="images/logo-ictd.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xl-2 offset-xl-0 offset-lg-9 col-lg-2 offset-md-6 col-md-4 vfloat-md-right mt-3">
+                        <h3> সিস্টেম ডেভেলপমেন্টে </h3>
+                        <a href="#">
+                            <img class="h-auto" src="images/softbd-icon.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        © সর্বস্বত্ব স্বত্বাধিকার সংরক্ষিত আই সি টি ডিভিশন
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Plugins -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

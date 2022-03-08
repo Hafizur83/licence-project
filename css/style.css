@@ -1,0 +1,316 @@
+
+/*FONT FAMILY*/
+@font-face{
+	font-family:'Kalpurush';
+	src: url(../assets/font/Kalpurush.ttf)
+}
+
+
+/* -----------------
+::: BASIC CSS
+----------------- */
+
+*{
+	margin: 0;
+	padding: 0; }
+body{
+    background: #E2E5EC;
+    background-image: url(../images/background.png);
+    background-repeat: repeat-x;
+	font-size: 15px;
+    font-family: Kalpurush;
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+    font-family: Kalpurush;
+}
+h1{
+	font-size: 60px;
+}
+h2{
+	font-size: 34px;
+}
+h3{
+	font-size: 23px;
+}
+h4{
+	font-size: 17px;
+}
+h5{
+	font-size: 14px;
+}
+p {
+	color: #333333;
+	font-size: 15px;
+	line-height: 1.7;
+    margin: 0 0 10px
+}
+
+a {
+  text-decoration: none;
+  outline: 0 solid transparent;
+  font-weight: 400; }
+
+  a:hover, a:focus {
+    text-decoration: none;
+    outline: 0 solid transparent; }
+
+ul,
+ol {
+  margin: 0; }
+  ul li,
+  ol li {
+    list-style: none; }
+img{
+    max-width: 100%;
+}
+.btn{
+    border: none;
+    border-radius: 0;
+    color: #ffffff;
+    background: #693391;
+    font-size: 16px;
+    padding: 8px 16px 7px 16px;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+}
+
+/* -----------------
+::: CSS
+----------------- */
+.page-inner {
+    padding: 30px 0;
+    min-height: 385px;
+}
+.panel{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+.panel-body {
+    padding: 15px;
+}
+.form-control {
+    height: 42px;
+    border-color: #78479c;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    background-color: #fff;
+}
+.form-control:focus{
+    box-shadow: none;
+     border-color: #78479c;
+}
+.input-group-text {
+    background-color: #e9ecef;
+    border: 1px solid #68318f;
+    border-radius: 0;
+    color: #999;
+    font-size: 14px;
+}
+.required label.control-label::after {
+    content: " * ";
+    color: red;
+}
+.nav-tabs{
+    border: none;
+}
+.form-group label {
+    font-size: 16px;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color:transparent;
+}
+.form-control:disabled, .form-control[readonly] {
+    cursor: not-allowed;
+}
+/* -----------------
+:::  HeaderCSS
+----------------- */
+header{
+    background: #2bb068;
+    z-index: 99999;
+}
+.navbar-brand p{
+    color: #f5f0f0;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.nav-item.active > .nav-link{
+    color: #693391
+}
+.navbar-nav .nav-item .nav-link{
+    color: #f5f0f0;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #693391
+}
+button.navbar-toggler {
+    background: #8d45b8;
+    color: #fff;
+    height: 40px;
+    width: 38px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+}
+/* -----------------
+:::  Login CSS
+----------------- */
+.panel-login .panel-body {
+    padding: 40px 40px;
+}
+.panel-login .form-group {
+    margin-bottom: 30px;
+}
+.btn-login + a {
+    float: right;
+    margin-top: -40px;
+    color: black;
+}
+/* -----------------
+:::  HomePage CSS
+----------------- */
+.home-search-panel .panel-body {
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    min-height: 415px;
+    padding: 50px 30px 0px;
+    margin-top: 30px;
+}
+.home-search-panel .panel-body .tab-pane h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.home-search-panel .panel-heading ul li a {
+    background: #ffffff;
+    border-right: 1px solid #e6e6e7;
+    border-radius: 0;
+    font-size: 18px;
+    color: #693391;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #693391;
+}
+/* -----------------
+:::  Registration CSS
+----------------- */
+.regis-panel .nav-tabs .nav-link {
+    background: #ffffff;
+    border: none;
+    font-size: 18px;
+    color: #693391;
+    position: relative;
+}
+.regis-panel .nav-tabs .nav-link.active{
+    color: #3bb068;
+}
+.regis-panel .nav-tabs .nav-link.active span.round-tab{
+    color: #fff;
+    background: #3bb068;
+}
+span.round-tab {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 2;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 16px;
+    color: #0e214b;
+    font-weight: 500;
+    border: 1px solid #ddd;
+}
+.connecting-line{
+    height: 2px;
+    width: 77%;
+    background: #ddd;
+    position: absolute;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    top: 60px;
+}
+input.price.form-control {
+    height: 30px;
+    width: 80%;
+}
+/* -----------------
+:::  Footer CSS
+----------------- */
+footer h3{
+    font-size: 16px;
+    margin-bottom: 10px
+}
+.social-link a{
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 5px;
+    transition: all .5s;
+}
+.social-link a:last-child{
+    margin-right: 0;
+}
+.facebook{
+    background: #365590;
+}
+.twitter{
+    background: #5ca7dc;
+}
+.youtube{
+    background: #cd2127;
+}
+.google-plus{
+    background: #df4c39;
+}
+.urgent-need p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.urgent-need p a{
+    color: #000;
+}
+footer img{
+    height: 50px;
+}
+.footer-top{
+    background: #d8d9d9 url(../images/footer-top-border.png) no-repeat right top;
+    padding-bottom: 5px;
+}
+footer .planning-execute a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+footer .footer-bottom {
+    background: #693391;
+    color: #fff;
+    padding: 11px 0;
+}
+
+
+
+
+
+
+
